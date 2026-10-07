@@ -9,7 +9,7 @@ import {
 } from "../redux/slices/cartSlice";
 
 import { createOrder } from "../redux/thunks/orderThunks";
-import CartItem from "../components/cartItem";
+import CartItem from "../components/CartItem";
 
 function Cart() {
     const dispatch = useDispatch();
